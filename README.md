@@ -2,11 +2,11 @@
 
 MinimalClock is a MacOS screen saver that displays the time.
 
-[![MinimalClock screen saver](Screenshot.gif)](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip)
+[![MinimalClock screen saver](screenshot.png)](https://github.com/thomasjpr/MinimalClock/releases/download/v1.1/MinimalClock.saver.zip)
 
 ## How to install ##
 
-[Click here to download](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip).
+[Click here to download](https://github.com/thomasjpr/MinimalClock/releases/download/v1.1/MinimalClock.saver.zip).
 * Unzip, double-click and confirm installation.
 * Open the System Preferences, choose Screen Saver and activate MinimalClock.
 
@@ -17,3 +17,12 @@ Open the System Preferences, choose Screen Saver, right-click on MinimalClock an
 ## Author ##
 
 * [Mattia Rossini](https://github.com/mattiarossini)
+* Forked by [Thomas Roberts](https://thomasjpr.com)
+
+## Revision History
+
+### 1.1
+* Updated for Swift 5
+* Added second indicator
+
+* 1.0
