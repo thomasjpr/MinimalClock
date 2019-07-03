@@ -141,10 +141,9 @@
 			};
 			buildConfigurationList = 21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "MinimalClock" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
