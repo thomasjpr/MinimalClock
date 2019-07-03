@@ -3,7 +3,7 @@ import ScreenSaver
 /**
  - Author:  Mattia Rossini
  - Date:    September 2018
- - Version: 1.0
+ - Version: 1.1
  */
 final class MinimalClockView: ScreenSaverView {
 
@@ -20,6 +20,13 @@ final class MinimalClockView: ScreenSaverView {
 		view.detailLabel.stringValue = "MINUTES"
 		return view
 	}()
+    
+    private let secondsView: View = {
+        let view = View()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.detailLabel.stringValue = "SECONDS"
+        return view
+    }()
 
 	private let placesView: NSStackView = {
 		let view = NSStackView()
@@ -64,11 +71,13 @@ final class MinimalClockView: ScreenSaverView {
         
         hoursView.textLabel.stringValue = String(format: "%02d", calendar.component(.hour, from: date))
         minutesView.textLabel.stringValue = String(format: "%02d", calendar.component(.minute, from: date))
+        secondsView.textLabel.stringValue = String(format: "%02d", calendar.component(.second, from: date))
     }
 
 	private func initialize() {
 		placesView.addArrangedSubview(hoursView)
 		placesView.addArrangedSubview(minutesView)
+        placesView.addArrangedSubview(secondsView)
 		addSubview(placesView)
 
 		updateFonts()
@@ -81,7 +90,7 @@ final class MinimalClockView: ScreenSaverView {
 	private func updateFonts() {
 		placesView.spacing = floor(bounds.width * 0.05)
 
-		let places = [hoursView, minutesView]
+		let places = [hoursView, minutesView, secondsView]
         let textFont = font(withSize: round(bounds.width / 6), weight: .ultraLight)
         let detailFont = font(withSize: floor(bounds.width / 30))
 
