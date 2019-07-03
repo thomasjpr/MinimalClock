@@ -131,6 +131,7 @@
 					21F222251B73B5AC00B9A11A = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = UP9C8XM22A;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					21F222391B73B60100B9A11A = {
@@ -143,6 +144,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,6 +319,7 @@
 				PRODUCT_NAME = MinimalClock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -336,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattiarossini.minimalclock;
 				PRODUCT_NAME = MinimalClock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
