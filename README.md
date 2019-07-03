@@ -25,4 +25,4 @@ Open the System Preferences, choose Screen Saver, right-click on MinimalClock an
 * Updated for Swift 5
 * Added second indicator
 
-* 1.0
+### 1.0
