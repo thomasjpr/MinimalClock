@@ -2,11 +2,11 @@
 
 MinimalClock is a MacOS screen saver that displays the time.
 
-[![MinimalClock screen saver](screenshot.png)](https://github.com/thomasjpr/MinimalClock/releases/download/v1.1/MinimalClock.saver.zip)
+[![MinimalClock screen saver](screenshot.png)](https://github.com/thomasjpr/MinimalClock/releases/download/1.1/MinimalClock.saver.zip)
 
 ## How to install ##
 
-[Click here to download](https://github.com/thomasjpr/MinimalClock/releases/download/v1.1/MinimalClock.saver.zip).
+[Click here to download](https://github.com/thomasjpr/MinimalClock/releases/download/1.1/MinimalClock.saver.zip).
 * Unzip, double-click and confirm installation.
 * Open the System Preferences, choose Screen Saver and activate MinimalClock.
 
