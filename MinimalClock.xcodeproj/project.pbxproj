@@ -331,6 +331,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasjpr.minimalclock;
 				PRODUCT_NAME = MinimalClock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -357,6 +358,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasjpr.minimalclock;
 				PRODUCT_NAME = MinimalClock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
